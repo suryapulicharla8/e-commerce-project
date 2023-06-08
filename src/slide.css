@@ -1,0 +1,11 @@
+.slide {
+    top: 100px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+}
+img {
+    
+    margin-top: 10px;
+    margin-left: 10px;
+}

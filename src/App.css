@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+  display: inline-flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.routes-container {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  background-color: #61dafb;
+  height: 40px;
+  /* text-align: center; */
+  align-items: center;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.link {
+  text-decoration: none;
+}
+.link:hover {
+  color: whitesmoke;
+  background-color: red;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.first {
+  /* background-color: blue; */
+  border-radius: 20px;
+
+}
+
+.ecmain {
+  display: flex;
+  flex-direction: row;
+
+}
+.esub {
+  height: 200px;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid red;
+}
+
+@media only screen and (min-width:200px) and (max-width:400px) {
+  .routes-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    size:initial;
+    height:auto;
+    /* background-color: red; */
+  }
+  
+}
